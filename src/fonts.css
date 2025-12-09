@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Balloon";
+  src: url("./assets/fonts/InflateptxChrome-X3oPg.ttf") format("truetype");
+  font-weight: lighter;
+  
+}
+@font-face {
+  font-family: "Balloon2";
+  src: url("./assets/fonts/GubyBambam-3D-SVG.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Balloon3";
+  src: url("./assets/fonts/Kingthings\ Bloone!.TTF") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Cake";
+  src: url("./assets/fonts/SuperKidsRed-zr9vL.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* Prevent ANY overflow */
+body, html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fix image overflow */
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
+
+
+.Text {
+  font-family: "Balloon";
+  font-size: 80px;
+  color: red;
+  text-align: center;
+
+  /* max-width: 100%; */
+}
+.Text2{
+  font-family: "Cake";
+  font-size: 80px;
+  color: rgb(243, 151, 206);
+  text-align: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* flex-wrap: wrap; */
+}
+.containerALL {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.BallonsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.fireContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.imgleft{
+    width: 300px;
+  max-width: 100%;
+    background-color: white;
+    
+}
+.fireimg{
+     width: 200px;
+    background-color: white;
+}
+
+ 
+
+@media (max-width:570px) {
+    .Text {
+    font-size: 25px !important; /* increase from 17px */
+    line-height: 1.1;
+  }
+   
+    .fireimg{
+        width: 90px;
+    }
+  
+    .imgleft{
+        width: 80px;
+    }
+   
+}
