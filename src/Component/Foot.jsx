@@ -14,7 +14,7 @@ export default function Foot({timeline}) {
           
         },{ 
           opacity:1,
-          y:-800,
+          y:-1500,
           
           duration:2
           ,stagger:{
